@@ -12,7 +12,7 @@ function App() {
       <header style={styles.header}>
         <div style={styles.logoSection}>
           <img
-            src="https://via.placeholder.com/50" // Replace with your cricket image URL
+            src="https://via.placeholder.com/50" 
             alt="Cricket Logo"
             style={styles.logo}
           />

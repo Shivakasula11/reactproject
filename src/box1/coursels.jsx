@@ -1,7 +1,3 @@
-
-
-
-
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import Card from "react-bootstrap/Card";
@@ -220,33 +216,196 @@ const CustomCarousel = () => {
       {/* Footer Section */}
       <footer
         style={{
-          backgroundColor: "#222",
-          color: "white",
-          padding: "20px",
-          textAlign: "center",
+          backgroundColor: "#1a1a1a",
+          color: "#e0e0e0",
+          padding: "50px 20px 30px",
+          borderTop: "3px solid #0d0c0c",
         }}
       >
-        <div style={{ maxWidth: "800px", margin: "0 auto" }}>
-          <h4>About Us</h4>
-          <p>
-            We are passionate about bringing you the best experience through our
-            services. Our platform is designed with user satisfaction in mind.
-          </p>
-          <hr style={{ border: "1px solid white", margin: "20px 0" }} />
-          <div>
-            <p>
-              <strong>Contact Number:</strong> +91 6301993194, 7337011242
-            </p>
-            <p>
-              <strong>Email:</strong> HIT & RUN Boxcricket@gmail.com
-            </p>
-            <p>
-              <strong>Location:</strong>PLOT NO:46 NEAR KPHP, HYDERABAD, India
-            </p>
-            <p>
-              <strong>Copyrights</strong>© 2024 HIT & RUN Box Cricket. All Rights
-              Reserved.
-            </p>
+        <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
+          {/* Main Footer Grid */}
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+              gap: "40px",
+              marginBottom: "40px",
+            }}
+          >
+            {/* About Section */}
+            <div>
+              <h3
+                style={{
+                  fontSize: "20px",
+                  fontWeight: "700",
+                  marginBottom: "15px",
+                  color: "#fff",
+                  textTransform: "uppercase",
+                  letterSpacing: "1px",
+                }}
+              >
+                HIT & RUN
+              </h3>
+              <p
+                style={{
+                  fontSize: "14px",
+                  lineHeight: "1.8",
+                  color: "#b0b0b0",
+                  marginBottom: "15px",
+                }}
+              >
+                We are passionate about bringing you the best box cricket experience through our premium services. Our platform is designed with user satisfaction and convenience in mind.
+              </p>
+             
+             
+             
+            </div>
+
+            {/* Contact Section */}
+            <div>
+              <h4
+                style={{
+                  fontSize: "16px",
+                  fontWeight: "700",
+                  marginBottom: "20px",
+                  color: "#fff",
+                  textTransform: "uppercase",
+                  letterSpacing: "0.5px",
+                }}
+              >
+                 Quick Contact
+              </h4>
+              <div style={{ display: "flex", flexDirection: "column", gap: "15px" }}>
+                <div>
+                  <p
+                    style={{
+                      fontSize: "12px",
+                      color: "#dde5ed",
+                      marginBottom: "5px",
+                      fontWeight: "600",
+                      textTransform: "uppercase",
+                    }}
+                  >
+                    Phone
+                  </p>
+                  <a
+                    href="tel:+916301993194"
+                    style={{
+                      fontSize: "14px",
+                      color: "#e0e0e0",
+                      textDecoration: "none",
+                      transition: "color 0.3s",
+                    }}
+                    onMouseEnter={(e) => (e.target.style.color = "#938f8e")}
+                    onMouseLeave={(e) => (e.target.style.color = "#e0e0e0")}
+                  >
+                    +91 6301993194
+                  </a>
+                  <br />
+                  <a
+                    href="tel:+917337011242"
+                    style={{
+                      fontSize: "14px",
+                      color: "#e0e0e0",
+                      textDecoration: "none",
+                      transition: "color 0.3s",
+                    }}
+                    onMouseEnter={(e) => (e.target.style.color = "#d7d1cf")}
+                    onMouseLeave={(e) => (e.target.style.color = "#e0e0e0")}
+                  >
+                    +91 7337011242
+                  </a>
+                </div>
+                <div>
+                  <p
+                    style={{
+                      fontSize: "12px",
+                      color: "#dde5ed",
+                      marginBottom: "5px",
+                      fontWeight: "600",
+                      textTransform: "uppercase",
+                    }}
+                  >
+                    Email
+                  </p>
+                  <a
+                    href="mailto:hitandrunboxcricket@gmail.com"
+                    style={{
+                      fontSize: "14px",
+                      color: "#e0e0e0",
+                      textDecoration: "none",
+                      transition: "color 0.3s",
+                      wordBreak: "break-word",
+                    }}
+                    onMouseEnter={(e) => (e.target.style.color = "#e2dcda")}
+                    onMouseLeave={(e) => (e.target.style.color = "#e0e0e0")}
+                  >
+                    Hit&runBoxcricket@gmail.com
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* Location Section */}
+            <div>
+              <h4
+                style={{
+                  fontSize: "16px",
+                  fontWeight: "700",
+                  marginBottom: "20px",
+                  color: "#fff",
+                  textTransform: "uppercase",
+                  letterSpacing: "0.5px",
+                }}
+              >
+                 Location
+              </h4>
+              <p
+                style={{
+                  fontSize: "14px",
+                  lineHeight: "1.8",
+                  color: "#b0b0b0",
+                }}
+              >
+                PLOT NO: 46 NEAR KPHP,Kukatpally
+                <br />
+                HYDERABAD, India
+              </p>
+              
+            </div>
+          </div>
+
+          {/* Divider */}
+          <div
+            style={{
+              borderTop: "1px solid #333",
+              paddingTop: "20px",
+              marginTop: "30px",
+            }}
+          >
+            {/* Bottom Footer */}
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "center",
+                flexWrap: "wrap",
+                gap: "20px",
+              }}
+            >
+              <p
+                style={{
+                  fontSize: "13px",
+                  color: "#888",
+                  margin: "0",
+                }}
+              >
+                © 2024 HIT & RUN Box Cricket. All Rights Reserved.
+              </p>
+              <div style={{ display: "flex", gap: "20px" }}>
+                
+              </div>
+            </div>
           </div>
         </div>
       </footer>

@@ -128,13 +128,13 @@ const AboutUs = () => {
 
       <div className="about-container">
       <div className="hero-section">
-        <h1>Welcome to Box Cricket App</h1>
+        <h1>Welcome to Box Cricket </h1>
         <p>Your go-to platform for discovering and booking the best box cricket venues.</p>
       </div>
 
       <div className="content">
         <div className="section">
-          <img src="https://turftown.s3.ap-south-1.amazonaws.com/super_admin/tt-1702659037808.webp" alt="Box Cricket" className="about-img" />
+          <img src="https://images.pexels.com/photos/29162245/pexels-photo-29162245.jpeg" alt="Box Cricket" className="about-img" />
           <div className="text">
             <h2>Our Mission</h2>
             <p>
@@ -173,7 +173,7 @@ const AboutUs = () => {
           <h2>Get in Touch</h2>
           <p>
             Have questions or feedback? Reach out to us at 
-            <a href="mailto:HIT & RUN Boxcricket@gmail.com"> HIT & RUN Boxcricket@gmail.com</a>.
+            <a href="mailto:HIT & RUN Boxcricket@gmail.com"> Hit&runBoxcricket@gmail.com</a>.
           </p>
         </div>
       </div>

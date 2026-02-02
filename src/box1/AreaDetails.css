@@ -1,0 +1,654 @@
+/* =========================
+   AREA DETAILS PAGE - PROFESSIONAL STYLING
+   ========================= */
+
+:root {
+  --primary: #0d6efd;
+  --primary-dark: #0a58ca;
+  --secondary: #1f3a5f;
+  --accent: #6366f1;
+  --danger: #dc3545;
+  --success: #198754;
+  --warning: #ffc107;
+  --dark: #212529;
+  --light: #f8f9fa;
+  --card-bg: #ffffff;
+  --text-dark: #212529;
+  --text-muted: #6c757d;
+  --border: #e9ecef;
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.12);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.15);
+  --radius: 12px;
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* =========================
+   CONTAINER & LAYOUT
+========================= */
+
+.areadetails-container {
+  margin-top: 100px;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #f5f7fa 0%, #ffffff 100%);
+  min-height: 100vh;
+}
+
+.areadetails-wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* =========================
+   PAGE TITLE & HEADER
+========================= */
+
+.areadetails-header {
+  text-align: center;
+  margin-bottom: 50px;
+  animation: slideDown 0.6s ease-out;
+}
+
+.areadetails-title {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: var(--secondary);
+  margin-bottom: 12px;
+  letter-spacing: -0.5px;
+  text-transform: uppercase;
+  background: linear-gradient(135deg, var(--secondary) 0%, var(--accent) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.areadetails-subtitle {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  font-weight: 400;
+  letter-spacing: 0.3px;
+}
+
+/* =========================
+   CARDS GRID & LAYOUT
+========================= */
+
+.areadetails-grid {
+  display: grid;
+  gap: 32px;
+  animation: fadeIn 0.8s ease-out;
+}
+
+.areadetails-grid-item {
+  animation: slideUp 0.6s ease-out forwards;
+  opacity: 0;
+}
+
+.areadetails-grid-item:nth-child(1) { animation-delay: 0.1s; }
+.areadetails-grid-item:nth-child(2) { animation-delay: 0.2s; }
+.areadetails-grid-item:nth-child(3) { animation-delay: 0.3s; }
+.areadetails-grid-item:nth-child(4) { animation-delay: 0.4s; }
+.areadetails-grid-item:nth-child(5) { animation-delay: 0.5s; }
+
+/* =========================
+   VENUE CARD STYLING
+========================= */
+
+.venue-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  box-shadow: var(--shadow-md);
+  transition: var(--transition);
+  height: 100%;
+}
+
+.venue-card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-8px);
+  border-color: var(--accent);
+}
+
+.venue-card.alt-layout {
+  direction: rtl;
+}
+
+.venue-card.alt-layout > * {
+  direction: ltr;
+}
+
+/* =========================
+   VENUE IMAGE SECTION
+========================= */
+
+.venue-image-wrapper {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  height: 100%;
+  min-height: 320px;
+}
+
+.venue-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: var(--transition);
+}
+
+.venue-card:hover .venue-image {
+  transform: scale(1.08);
+  filter: brightness(1.1);
+}
+
+.venue-image-badge {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: linear-gradient(135deg, var(--accent) 0%, var(--primary) 100%);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 25px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  animation: slideIn 0.5s ease-out;
+}
+
+.venue-image-badge::before {
+  content: "★";
+  font-size: 1.1rem;
+}
+
+/* =========================
+   VENUE INFO SECTION
+========================= */
+
+.venue-info {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: var(--card-bg);
+}
+
+.venue-header {
+  margin-bottom: 24px;
+}
+
+.venue-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--secondary);
+  margin-bottom: 8px;
+  line-height: 1.3;
+  transition: var(--transition);
+}
+
+.venue-card:hover .venue-title {
+  color: var(--accent);
+}
+
+.venue-address {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.venue-address::before {
+  content: "📍";
+  flex-shrink: 0;
+  font-size: 1.1rem;
+}
+
+/* =========================
+   VENUE DESCRIPTION
+========================= */
+
+.venue-description {
+  color: var(--text-dark);
+  font-size: 1rem;
+  line-height: 1.65;
+  margin: 20px 0;
+  padding: 16px 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+/* =========================
+   VENUE PRICE & FACILITIES
+========================= */
+
+.venue-pricing {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 16px 0;
+  padding: 14px 16px;
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.08) 0%, rgba(13, 110, 253, 0.08) 100%);
+  border-radius: 8px;
+  border-left: 4px solid var(--accent);
+}
+
+.price-label {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.price-amount {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.price-unit {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+/* =========================
+   FACILITIES SECTION
+========================= */
+
+.venue-facilities {
+  margin: 16px 0;
+}
+
+.facilities-label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--secondary);
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.facilities-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.facility-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  background: linear-gradient(135deg, #f0f4ff 0%, #f5f3ff 100%);
+  color: var(--accent);
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border: 1px solid rgba(99, 102, 241, 0.2);
+  transition: var(--transition);
+}
+
+.facility-badge:hover {
+  background: linear-gradient(135deg, var(--accent) 0%, #7c3aed 100%);
+  color: white;
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.facility-badge::before {
+  content: "✓";
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+/* =========================
+   ACTION BUTTONS
+========================= */
+
+.venue-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.btn-book-now {
+  flex: 1;
+  padding: 14px 24px;
+  background: linear-gradient(135deg, var(--accent) 0%, var(--primary) 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: var(--transition);
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-book-now::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  transition: var(--transition);
+}
+
+.btn-book-now:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(99, 102, 241, 0.4);
+}
+
+.btn-book-now:hover::before {
+  left: 100%;
+}
+
+.btn-book-now:active {
+  transform: translateY(-1px);
+}
+
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
+@media (max-width: 1200px) {
+  .areadetails-container {
+    padding: 32px 16px;
+    margin-top: 90px;
+  }
+
+  .areadetails-title {
+    font-size: 2.8rem;
+  }
+
+  .venue-info {
+    padding: 28px;
+  }
+}
+
+@media (max-width: 992px) {
+  .venue-card {
+    grid-template-columns: 1fr;
+    min-height: auto;
+  }
+
+  .venue-image-wrapper {
+    min-height: 280px;
+  }
+
+  .venue-info {
+    padding: 24px;
+  }
+
+  .venue-title {
+    font-size: 1.5rem;
+  }
+
+  .areadetails-title {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .areadetails-container {
+    padding: 24px 12px;
+    margin-top: 80px;
+  }
+
+  .areadetails-header {
+    margin-bottom: 32px;
+  }
+
+  .areadetails-title {
+    font-size: 2rem;
+    margin-bottom: 8px;
+  }
+
+  .areadetails-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .venue-info {
+    padding: 20px;
+  }
+
+  .venue-title {
+    font-size: 1.35rem;
+  }
+
+  .venue-description {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin: 16px 0;
+    padding: 12px 0;
+  }
+
+  .price-amount {
+    font-size: 1.4rem;
+  }
+
+  .facilities-list {
+    gap: 6px;
+  }
+
+  .facility-badge {
+    font-size: 0.8rem;
+    padding: 6px 10px;
+  }
+
+  .btn-book-now {
+    padding: 12px 20px;
+    font-size: 0.95rem;
+  }
+
+  .venue-actions {
+    gap: 10px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .areadetails-container {
+    padding: 16px 12px;
+    margin-top: 75px;
+  }
+
+  .areadetails-grid {
+    gap: 20px;
+  }
+
+  .areadetails-header {
+    margin-bottom: 24px;
+  }
+
+  .areadetails-title {
+    font-size: 1.6rem;
+    margin-bottom: 6px;
+  }
+
+  .areadetails-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .venue-card {
+    border-radius: 8px;
+  }
+
+  .venue-image-wrapper {
+    min-height: 220px;
+  }
+
+  .venue-info {
+    padding: 16px;
+  }
+
+  .venue-title {
+    font-size: 1.15rem;
+    margin-bottom: 6px;
+  }
+
+  .venue-address {
+    font-size: 0.85rem;
+  }
+
+  .venue-description {
+    font-size: 0.9rem;
+    line-height: 1.55;
+    margin: 12px 0;
+    padding: 10px 0;
+  }
+
+  .venue-pricing {
+    margin: 12px 0;
+    padding: 12px 14px;
+  }
+
+  .price-label {
+    font-size: 0.85rem;
+  }
+
+  .price-amount {
+    font-size: 1.2rem;
+  }
+
+  .facilities-label {
+    font-size: 0.85rem;
+    margin-bottom: 8px;
+  }
+
+  .facility-badge {
+    font-size: 0.75rem;
+    padding: 5px 8px;
+  }
+
+  .btn-book-now {
+    padding: 10px 16px;
+    font-size: 0.9rem;
+  }
+
+  .venue-image-badge {
+    top: 12px;
+    right: 12px;
+    padding: 6px 12px;
+    font-size: 0.8rem;
+  }
+}
+
+/* =========================
+   ANIMATIONS
+========================= */
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* =========================
+   UTILITY CLASSES
+========================= */
+
+.no-venues-found {
+  text-align: center;
+  padding: 80px 20px;
+  color: var(--text-muted);
+}
+
+.no-venues-found h1 {
+  font-size: 2rem;
+  color: var(--danger);
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+
+.no-venues-found p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.btn-back-home {
+  display: inline-block;
+  padding: 12px 32px;
+  background: var(--primary);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: var(--transition);
+  box-shadow: var(--shadow-md);
+}
+
+.btn-back-home:hover {
+  background: var(--primary-dark);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+  text-decoration: none;
+  color: white;
+}
+
+/* =========================
+   PRINT STYLES
+========================= */
+
+@media print {
+  .areadetails-container {
+    background: white;
+  }
+
+  .venue-card:hover {
+    box-shadow: none;
+    transform: none;
+  }
+
+  .btn-book-now {
+    display: none;
+  }
+}

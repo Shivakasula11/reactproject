@@ -9,11 +9,7 @@ padding:10px ;
   width:80px;
   border-radius: 50px;
 }
-/* @media (min-width:300px) and (max-width:500px) {
-  .nav-bar-image{
-    display: none;
-  }
-} */
+
 .box1{
     display: flex;
     justify-content: space-between;
