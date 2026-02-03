@@ -7,7 +7,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import Logo from "./box1/images/Logo.jpg"; // Ensure you have this image
-import Loginicon from  "./box1/images/Loginicon.jpg";
+
 import "./Aboutus.css";
 
 const AboutUs = () => {
@@ -52,16 +52,8 @@ const AboutUs = () => {
               {/* <Nav.Link href="/login" className="mx-2 d">Login</Nav.Link> */}
 
               <Nav.Link href="/login" className="mx-2 d-flex align-items-center">
-                <img
-                  src={Loginicon}
-                  alt="Login"
-                  style={{
-                    height: "30px",
-                    width: "30px",
-                    borderRadius: "50%",
-                    marginRight: "7px",
-                  }}
-                />
+                
+                
                 Login
               </Nav.Link>
               <Nav.Link href="/signup" className="mx-2"></Nav.Link>

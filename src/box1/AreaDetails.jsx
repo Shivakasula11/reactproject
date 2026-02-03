@@ -146,9 +146,9 @@ const CricketAreas = [
         description:
           "A serene location with a cafeteria and ample parking, offering a great cricket experience for all.",
         images: [
-          "https://media.hudle.in/venues/7faf1644-701c-4ab3-8580-74e94c63dea3/photo/0dc263e80df3ecb03acff381bd6c34cda7e585d6",
-          "https://media.hudle.in/venues/7faf1644-701c-4ab3-8580-74e94c63dea3/photo/018cb59afdc8f4e5f060f2883cd148a8ee91421d",
-          "https://media.hudle.in/venues/7faf1644-701c-4ab3-8580-74e94c63dea3/photo/018cb59afdc8f4e5f060f2883cd148a8ee91421d",
+          "https://i.ytimg.com/vi/jw69romQuRI/maxresdefault.jpg",
+          "https://d9adventures.com/final%20images/Cricket.jpg",
+          "https://spsauae.com/wp-content/uploads/2023/04/Cricket-Net-Dubai-640x360.jpg",
         ],
       },
       {
@@ -159,9 +159,9 @@ const CricketAreas = [
         description:
           "A professional-grade cricket facility with floodlights and a first-aid station to ensure safety during matches.",
         images: [
-          "https://media.hudle.in/venues/7faf1644-701c-4ab3-8580-74e94c63dea3/photo/b45b26f9add3a71a9e6003e6bd3941bdedc6f1e6",
-          "https://media.hudle.in/venues/7faf1644-701c-4ab3-8580-74e94c63dea3/photo/d709130988148d624941fec18287ba895d23b890",
-          "https://media.hudle.in/venues/7faf1644-701c-4ab3-8580-74e94c63dea3/photo/5e62351997df0083a999b3d4e5d0486d9e8b3e07",
+          "https://tse3.mm.bing.net/th/id/OIP.ToAS6C7nXtJIZtOuCaVikAHaEK?rs=1&pid=ImgDetMain&o=7&rm=3",
+          "https://tse3.mm.bing.net/th/id/OIP.Kei-2RWQ9HvE_FL7Bl67WwHaE7?rs=1&pid=ImgDetMain&o=7&rm=3",
+          "https://tse1.mm.bing.net/th/id/OIP.MP9PR08Bvj8lSb_kUBM93wHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
         ],
       },
       {
@@ -172,9 +172,9 @@ const CricketAreas = [
         description:
           "A compact and affordable cricket ground with excellent seating and a well-stocked canteen for refreshments.",
         images: [
-          "https://media.hudle.in/venues/111b0d83-1f47-4a87-be80-bdbe57f25aaf/photo/07a48c447eb9f4b3af8918ac1eea579ffa40719e",
-          "https://media.hudle.in/venues/111b0d83-1f47-4a87-be80-bdbe57f25aaf/photo/09cbab17338a303d19581edc4f51ad268d44b232",
-          "https://media.hudle.in/venues/111b0d83-1f47-4a87-be80-bdbe57f25aaf/photo/169151ffb643ded621408a85f4594c1837014b83",
+       "https://tse1.mm.bing.net/th/id/OIP.zoynpXH64SsI-FXSzxkszgHaJQ?rs=1&pid=ImgDetMain&o=7&rm=3",
+       "https://5.imimg.com/data5/ANDROID/Default/2021/1/MJ/HS/RL/118190257/product-jpeg-1000x1000.jpg",
+       "https://media.hudle.in/venues/db445b1c-8085-4c8a-bae1-0f2a3f901924/photo/506af49d9018de9277efb46c53a2a511e657d8fa",
         ],
       },
     ],
@@ -278,9 +278,9 @@ const CricketAreas = [
         description:
           "A serene location with a cafeteria and ample parking, offering a great cricket experience for all.",
         images: [
-          "https://media.hudle.in/venues/7faf1644-701c-4ab3-8580-74e94c63dea3/photo/0dc263e80df3ecb03acff381bd6c34cda7e585d6",
-          "https://media.hudle.in/venues/7faf1644-701c-4ab3-8580-74e94c63dea3/photo/018cb59afdc8f4e5f060f2883cd148a8ee91421d",
-          "https://media.hudle.in/venues/7faf1644-701c-4ab3-8580-74e94c63dea3/photo/018cb59afdc8f4e5f060f2883cd148a8ee91421d",
+          "https://tse1.mm.bing.net/th/id/OIP.oaqSKT-oCstc4f62lCXqvgHaJZ?rs=1&pid=ImgDetMain&o=7&rm=3",
+          "https://5.imimg.com/data5/SELLER/Default/2023/7/323594628/JL/UW/GJ/11336583/box-crciket-setup-1000x1000.jpg",
+          "https://5.imimg.com/data5/SELLER/Default/2024/7/435761520/CB/ZG/JN/121009216/nylon-cricket-practice-nets-500x500.jpg",
         ],
       },
       {
@@ -291,9 +291,9 @@ const CricketAreas = [
         description:
           "A professional-grade cricket facility with floodlights and a first-aid station to ensure safety during matches.",
         images: [
-          "https://media.hudle.in/venues/7faf1644-701c-4ab3-8580-74e94c63dea3/photo/b45b26f9add3a71a9e6003e6bd3941bdedc6f1e6",
-          "https://media.hudle.in/venues/7faf1644-701c-4ab3-8580-74e94c63dea3/photo/d709130988148d624941fec18287ba895d23b890",
-          "https://media.hudle.in/venues/7faf1644-701c-4ab3-8580-74e94c63dea3/photo/5e62351997df0083a999b3d4e5d0486d9e8b3e07",
+        "https://tse3.mm.bing.net/th/id/OIP.F1auf-nkhQfQY1PNyw5WxAHaE8?rs=1&pid=ImgDetMain&o=7&rm=3",
+        " https://blog.networldsports.co.uk/wp-content/uploads/2022/12/bowlingAction.jpg",
+        " https://tse2.mm.bing.net/th/id/OIP.zDE4iKRs_FHmaWoCRdKccAHaFj?rs=1&pid=ImgDetMain&o=7&rm=3",
         ],
       },
       {
@@ -304,9 +304,9 @@ const CricketAreas = [
         description:
           "A compact and affordable cricket ground with excellent seating and a well-stocked canteen for refreshments.",
         images: [
-          "https://media.hudle.in/venues/111b0d83-1f47-4a87-be80-bdbe57f25aaf/photo/07a48c447eb9f4b3af8918ac1eea579ffa40719e",
-          "https://media.hudle.in/venues/111b0d83-1f47-4a87-be80-bdbe57f25aaf/photo/09cbab17338a303d19581edc4f51ad268d44b232",
-          "https://media.hudle.in/venues/111b0d83-1f47-4a87-be80-bdbe57f25aaf/photo/169151ffb643ded621408a85f4594c1837014b83",
+         "https://tse4.mm.bing.net/th/id/OIP.Z3_fVumqSBanX8yCa-sZ-gHaE7?rs=1&pid=ImgDetMain&o=7&rm=3",
+         "https://5.imimg.com/data5/ANDROID/Default/2021/1/MJ/HS/RL/118190257/product-jpeg-1000x1000.jpg",
+          "https://tse4.mm.bing.net/th/id/OIP.72SCYU_xnQPVw6UpCHCexQHaE8?rs=1&pid=ImgDetMain&o=7&rm=3",
         ],
       },
     ],
@@ -488,7 +488,7 @@ const CricketAreas = [
     ],
   },
   {
-    areaName: "Hitech city",
+    areaName: "Hitechcity",
     cricketPlaces: [
       {
         name: "Sportz Pride Box Cricket",
@@ -532,7 +532,7 @@ const CricketAreas = [
     ],
   },
   {
-    areaName: "Ameerpet",
+    areaName: "Ammerpet",
     cricketPlaces: [
       {
         name: "Kiran Box Cricket",

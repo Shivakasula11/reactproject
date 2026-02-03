@@ -7,7 +7,6 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import Logo from "../src/box1/images/Logo.jpg";
-import Loginicon from "../src/box1/images/Loginicon.jpg";
 import "./contactform.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
@@ -57,16 +56,7 @@ const ContactUs = () => {
                   Contact
                 </Nav.Link>
                 <Nav.Link href="/login" className="mx-2 d-flex align-items-center">
-                  <img
-                    src={Loginicon}
-                    alt="Login"
-                    style={{
-                      height: "30px",
-                      width: "30px",
-                      borderRadius: "50%",
-                      marginRight: "7px",
-                    }}
-                  />
+                 
                   Login
                 </Nav.Link>
                 <Nav.Link href="/signup" className="mx-2" />
@@ -141,7 +131,7 @@ const ContactUs = () => {
         {/* Contact Form */}
         <div className="container-fluid">
           <div className="contact-container">
-            <h1 className="contact-heading"  style={{color:"blue"}}>Get in Touch</h1>
+            <h1 className="contact-heading" style={{color:"blue"}}>Get in Touch</h1>
             <p className="contact-description" style={{color:"blue"}}>
               Have questions or need help? Feel free to reach out to us!
             </p>

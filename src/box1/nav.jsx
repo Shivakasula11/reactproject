@@ -145,25 +145,8 @@ const Navb = () => {
         </Container>
       </Navbar>
 
-      <div style={{ paddingTop: "90px" }}>
-        <div
-          className="marquee-container"
-          style={{ overflow: "hidden", position: "relative", height: "30px" }}
-        >
-          <div
-            className="marquee"
-            style={{
-              display: "inline-block",
-              whiteSpace: "nowrap",
-              animation: "scrollLeft 10s linear infinite",
-              fontSize: "18px",
-              color: "white",
-            }}
-          >
-            Timings: Morning 7:30 AM to Night 3:00 AM
-          </div>
-        </div>
-
+      <div style={{ paddingTop: "30px" }}>
+      
         {/* Carousel Section */}
         <CustomCarousel />
       </div>
