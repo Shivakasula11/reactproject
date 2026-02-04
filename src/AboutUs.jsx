@@ -6,8 +6,7 @@ import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown"; 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
-import Logo from "./box1/images/Logo.jpg"; // Ensure you have this image
-
+import Logo from "./box1/images/Logo.jpg";
 import "./Aboutus.css";
 
 const AboutUs = () => {
@@ -29,7 +28,7 @@ const AboutUs = () => {
 
   return (
     <>
-      {/* Navbar at the Top */}
+     
       <Navbar expand="lg" bg="dark" variant="dark" className="fixed-top custom-navbar">
         <Container>
           <Navbar.Brand href="/home" className="d-flex align-items-center">
@@ -49,7 +48,7 @@ const AboutUs = () => {
               <Nav.Link href="/home" className="mx-2">Home</Nav.Link>
               <Nav.Link href="/aboutus" className="mx-2">About Us</Nav.Link>
               <Nav.Link href="/contact" className="mx-2">Contact</Nav.Link>
-              {/* <Nav.Link href="/login" className="mx-2 d">Login</Nav.Link> */}
+              
 
               <Nav.Link href="/login" className="mx-2 d-flex align-items-center">
                 
