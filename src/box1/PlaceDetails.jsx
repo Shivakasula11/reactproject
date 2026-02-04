@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useLocation } from "react-router-dom";
-import { Container, Card, Button, Form, Row, Col } from "react-bootstrap";
+import { Form, Row, Col } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
@@ -305,9 +305,6 @@ const PlaceDetails = () => {
     }
   };
 
-  const handleGenerateBill = () => {
-    handleGenerateProfessionalBill();
-  };
 
   return (
     <div className="booking-container">
@@ -327,7 +324,7 @@ const PlaceDetails = () => {
                       <img
                         className="d-block w-100"
                         src={image}
-                        alt={`${place.name} - Image ${index + 1}`}
+                        alt={`${place.name} view ${index + 1}`}
                         style={{
                           objectFit: "cover",
                           height: "400px"
